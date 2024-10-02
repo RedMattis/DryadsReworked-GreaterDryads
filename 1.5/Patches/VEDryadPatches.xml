@@ -1,0 +1,10 @@
+<Patch>
+
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[contains(defName, 'VDE_Dryad')]/comps/li[@Class="VanillaIdeologyExpanded_Dryads"]/requiredCount</xpath>
+    <value>
+      <requiredCount>4</requiredCount>
+    </value>
+  </Operation> -->
+
+</Patch>

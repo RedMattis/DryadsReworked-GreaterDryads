@@ -1,0 +1,72 @@
+<Defs>
+  <!-- Kinda pointless since they can't leave the tree. -->
+  <!-- <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Carrier</defName>
+    <dryad>Dryad_Carrier</dryad>
+    <greaterDryad>DVE_GreaterDryad_Carrier</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink> -->
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Clawer</defName>
+    <dryad>Dryad_Clawer</dryad>
+    <greaterDryad>DVE_GreaterDryad_Clawer</greaterDryad>
+    <cost>2</cost> <!--How many regular dryads this counts as-->
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Barkskin</defName>
+    <dryad>Dryad_Barkskin</dryad>
+    <greaterDryad>DVE_GreaterDryad_Barkskin</greaterDryad>
+    <cost>2</cost> 
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Woodmaker</defName>
+    <dryad>Dryad_Woodmaker</dryad>
+    <greaterDryad>DVE_GreaterDryad_Woodmaker</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Medicinemaker</defName>
+    <dryad>Dryad_Medicinemaker</dryad>
+    <greaterDryad>DVE_GreaterDryad_Medicinemaker</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Berrymaker</defName>
+    <dryad>Dryad_Berrymaker</dryad>
+    <greaterDryad>DVE_GreaterDryad_Berrymaker</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Nectarmaker</defName>
+    <dryad>VDE_Dryad_Nectarmaker</dryad>
+    <greaterDryad>DVE_GreaterDryad_Berrymaker</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Spitter</defName>
+    <dryad>VDE_Dryad_Spitter</dryad>
+    <greaterDryad>DVE_GreaterDryad_Spitter</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Gaubricmaker</defName>
+    <dryad>VDE_Dryad_Gaubricmaker</dryad>
+    <greaterDryad>DVE_GreaterDryad_Gaubricmaker</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink>
+
+  <Dryad.DryadGreaterLink>
+    <defName>DVE_GreaterDryad_Stonedigger</defName>
+    <dryad>VDE_Dryad_Stonedigger</dryad>
+    <greaterDryad>DVE_GreaterDryad_Stonedigger</greaterDryad>
+    <cost>2</cost>
+  </Dryad.DryadGreaterLink>
+</Defs>
