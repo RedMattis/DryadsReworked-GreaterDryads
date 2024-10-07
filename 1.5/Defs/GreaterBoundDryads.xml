@@ -295,6 +295,7 @@
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<FilthRate>0</FilthRate>
+			<MiningSpeed>0.5</MiningSpeed>
 		</statBases>
 		<comps>
 			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
@@ -929,6 +930,7 @@
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<FilthRate>0</FilthRate>
+			<MiningSpeed>1</MiningSpeed>
 		</statBases>
 		<comps>
 

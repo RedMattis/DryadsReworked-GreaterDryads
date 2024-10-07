@@ -7,4 +7,11 @@
     </value>
   </Operation> -->
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VDE_Dryad_Stonedigger"]/statBases</xpath>
+    <value>
+      <MiningSpeed>0.5</MiningSpeed>
+    </value>
+  </Operation>
+
 </Patch>
