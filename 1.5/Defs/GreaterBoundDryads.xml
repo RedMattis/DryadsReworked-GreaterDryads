@@ -6,7 +6,7 @@
 		<label>greater carrier dryad</label>
 		<description>A dryad caste specialized in carrying items. Its enhancement has improved their size, carrying capacity and added functionality as a pack animal for long-distance hauling.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>2.95</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -137,7 +137,7 @@
 		<label>greater clawer dryad</label>
 		<description>A dryad caste with huge claws that is specialized in aggression and damage-dealing attacks. Its enhancement has improved their combat prowess and strengthened the wings, permitting them to ignore terrain movement penalties.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>5</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -148,9 +148,9 @@
 		<comps>
 			<li Class="AnimalBehaviours.CompProperties_Floating">
 			</li>
-			<li Class="AnimalBehaviours.CompProperties_Draftable">
+			<!-- <li Class="AnimalBehaviours.CompProperties_Draftable">
 				<makeNonFleeingToo>true</makeNonFleeingToo>
-			</li>
+			</li> -->
 			<li Class="VanillaIdeologyExpanded_Dryads.CompProperties_PawnMerge">
 				<requiredCount>3</requiredCount>
 					<podToBuild>VDE_ClawerAwakeningCocoon</podToBuild>
@@ -287,7 +287,7 @@
 		<label>greater barkskin dryad</label>
 		<description>A dryad caste specialized in absorbing hits during combat. Its enhancement has created multiple layers of hardened bark and deadened all pain receptors. Can act as a mobile form of cover.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>3.4</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
@@ -302,9 +302,9 @@
 				<hediffname>VDE_NoPain</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
-			<li Class="AnimalBehaviours.CompProperties_Draftable">
+			<!-- <li Class="AnimalBehaviours.CompProperties_Draftable">
 				<makeNonFleeingToo>true</makeNonFleeingToo>
-			</li>
+			</li> -->
 			<li Class="VanillaIdeologyExpanded_Dryads.CompProperties_PawnMerge">
 				<requiredCount>3</requiredCount>
 				<podToBuild>VDE_BarkskinAwakeningCocoon</podToBuild>
@@ -439,7 +439,7 @@
 		<label>greater woodmaker dryad</label>
 		<description>A slow, bumbling caste of dryad which specializes in wood production. Its enhancement has accelerated the wood-like material production and instilled a motherly instinct to create nests made of numerous twigs.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>1.5</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -599,7 +599,7 @@
 		<label>greater medicinemaker dryad</label>
 		<description>A dryad caste specialized in medicine production. Its enhancement has accelerated the herbal production and gives them a large nodule that slowly accumulated neutroamine, which can be milked when full.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>3.2</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -751,7 +751,7 @@
 		<label>greater berrymaker dryad</label>
 		<description>A dryad caste specialized in food production. Its enhancement has accelerated the berry production and instills an instinct to bury parts of its peeling hide that are entirely similar to regular berry bushes.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>3.2</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -924,7 +924,7 @@
 		<label>greater stonedigger dryad</label>
 		<description>An extremely easy-going caste of dryad which specializes in finding stone chunks. Its enhancement has instilled a sense of awe and strengthened pincers, drawing envy from stone ruins and carving excavated stone chunks into blocks to build a better shell.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>2.6</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -1079,7 +1079,7 @@
 		<label>greater nectarmaker dryad</label>
 		<description>A curious dryad caste specialized in ambrosia production. Its enhancement has accelerated the ambrosia production and allows it to permanently root itself, transforming into a hardy Ambrosia Palm tree.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>3</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -1230,7 +1230,7 @@
 		<label>greater spitter dryad</label>
 		<description>A dryad caste specialized in territorialism and can launch ranged acid projectiles. Its enhancement has improved their range and adds large acid reservoirs that explode when the dryad dies.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>4</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -1238,9 +1238,9 @@
 			<FilthRate>0</FilthRate>
 		</statBases>
 		<comps>
-			<li Class="AnimalBehaviours.CompProperties_Draftable">
+			<!-- <li Class="AnimalBehaviours.CompProperties_Draftable">
 				<makeNonFleeingToo>true</makeNonFleeingToo>
-			</li>
+			</li> -->
 			<li Class="VanillaIdeologyExpanded_Dryads.CompProperties_PawnMerge">
 				<requiredCount>3</requiredCount>
 				<podToBuild>VDE_SpitterAwakeningCocoon</podToBuild>
@@ -1398,7 +1398,7 @@
 		<label>greater gaubricmaker dryad</label>
 		<description>A caste of dryad which specializes in producing a unique shaggy, leather-like material. Its enhancement has accelerated the fabric production and lengthens the shagginess, making it quite adorable.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
-			<ToxicResistance>0</ToxicResistance>
+
 			<MoveSpeed>4</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
