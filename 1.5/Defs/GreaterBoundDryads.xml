@@ -1077,7 +1077,7 @@
 	<ThingDef ParentName="DryadBase">
 		<defName>DVE_GreaterDryad_Nectarmaker</defName>
 		<label>greater nectarmaker dryad</label>
-		<description>A curious dryad caste specialized in ambrosia production. Its enhancement has accelerated the ambrosia production and allows it to permanently root itself, transforming into a hardy Ambrosia Palm tree.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
+		<description>A curious dryad caste specialized in ambrosia production. Its enhancement has accelerated the ambrosia production.\n\nGreater dryads are more capable than their smaller kin but most gauranlen trees lack the power to support them.</description>
 		<statBases>
 
 			<MoveSpeed>3</MoveSpeed>
@@ -1091,18 +1091,18 @@
 
 			<li Class="CompProperties_Spawner">
 				<thingToSpawn>Ambrosia</thingToSpawn>
-				<spawnCount>10</spawnCount>
-				<spawnIntervalRange>80000</spawnIntervalRange>
+				<spawnCount>20</spawnCount>
+				<spawnIntervalRange>120000</spawnIntervalRange>
 				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
 				<showMessageIfOwned>true</showMessageIfOwned>
 			</li>
-			<li Class="AnimalBehaviours.CompProperties_DieAndChangeIntoOtherDef">
+			<!-- <li Class="AnimalBehaviours.CompProperties_DieAndChangeIntoOtherDef">
 				<needsDiggableTerrain>true</needsDiggableTerrain>
 				<gizmoImage>Things/Building/AmbrosiaPalm/AmbrosiaPalmA</gizmoImage>
 				<gizmoLabel>VDE_TurnIntoPalm</gizmoLabel>
 				<gizmoDesc>VDE_TurnIntoPalmDesc</gizmoDesc>
 				<defToChangeTo>VDE_AmbrosiaPalm</defToChangeTo>
-			</li>
+			</li> -->
 		</comps>
 		<race>
 

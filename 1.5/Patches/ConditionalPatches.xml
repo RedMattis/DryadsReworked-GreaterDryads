@@ -1,0 +1,8 @@
+<Patch>
+  <Operation Class="Dryad.PatchOp_IfNoAwakened">
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef/comps/li[@Class="VanillaIdeologyExpanded_Dryads.CompProperties_PawnMerge"]</xpath>
+      <!-- <success>Always</success> -->
+    </match>
+  </Operation>
+</Patch>
