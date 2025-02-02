@@ -45,7 +45,7 @@
   <Dryad.DryadGreaterLink>
     <defName>DVE_GreaterDryad_Nectarmaker</defName>
     <dryad>VDE_Dryad_Nectarmaker</dryad>
-    <greaterDryad>DVE_GreaterDryad_Berrymaker</greaterDryad>
+    <greaterDryad>DVE_GreaterDryad_Nectarmaker</greaterDryad>
     <cost>2</cost>
   </Dryad.DryadGreaterLink>
 
